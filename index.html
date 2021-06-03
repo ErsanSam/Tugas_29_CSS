@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+  <style media="screen">
+    /* *{
+    margin:0px auto;
+  } */
+  .container{
+    margin:0 auto;
+    position:relative;
+    right:0px;
+    top:150px;
+    width:33%;
+  }
+  .fluid,.fluid-ui-teal-button{
+    margin:0px !important;
+  }
+  .header{
+    display:flex;
+    justify-content:center;
+    background-color:lightgrey;
+  }
+  body{
+    background-color:lightgrey;
+  }
+  h1{
+    color:teal;
+  }
+  .body{
+    background-color:white;
+    padding:10px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <form class="ui form">
+      <div class="ui header">
+        <h1><img src="logo1.jpg" alt="NIOMIC" width="50px" height="50px">
+          Daftar Akun NIOMIC</h1>
+        </div>
+        <div class="body">
+          <div class=" field ui left icon input fluid">
+            <input type="text" name="nama-depan" placeholder="Nama Depan">
+            <i class="user icon"> </i>
+          </div><br>
+          <div class="ui left icon input fluid">
+            <input type="text" name="nama-belakang" placeholder="Nama Belakang">
+            <i class="user icon"> </i>
+          </div><br>
+          <div class="ui left icon input fluid">
+            <input type="tel" name="no-hp" placeholder="No. Telp/HP">
+            <i class="user icon"> </i>
+          </div><br>
+          <div class="ui left icon input fluid">
+            <input type="email" name="alamat-email" placeholder="Alamat Email">
+            <i class="user icon"> </i>
+          </div><br>
+          <div class="ui left icon input fluid">
+            <i class="lock icon"></i>
+            <input type="password" name="password" placeholder="Password">
+          </div><br>
+          <button class="fluid ui teal button">Login</button>
+        </div>
+      </form>
+    </div>
+
+
+
+    <script src="semantic/dist/semantic.min.js"></script>
+  </body>
+  </html>
